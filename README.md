@@ -19,10 +19,12 @@ Answers:
 2. Use of bitwise operations (^, &, >>, <<, |, ~):
    - Operation: Bitwise operations are used to manipulate individual bits in binary representations of data.
    - Example: Suppose you want to check if a number is even or odd using bitwise operators in C++:
+
+  ```
      bool isEven(int num) {
          return (num & 1) == 0; // The bitwise AND operation with 1 checks the least significant bit.
      }
-
+  ```
 
 3. gRPC, mTLS:
    - Operation: gRPC is a high-performance, language-agnostic RPC (Remote Procedure Call) framework, and mTLS (Mutual Transport Layer Security) is a security protocol for encrypted communication between services.
